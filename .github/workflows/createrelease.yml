@@ -62,7 +62,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/win-x86/publish/YtDlpAudio.exe
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/win-x86/publish/YtDlpJsonExtra.exe
         asset_name: YtDlpAudio-Win-x86.exe
         asset_content_type: application/vnd.microsoft.portable-executable
     - uses: actions/upload-release-asset@v1.0.1
@@ -70,7 +70,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/win-x64/publish/YtDlpAudio.exe
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/win-x64/publish/YtDlpJsonExtra.exe
         asset_name: YtDlpAudio-Win-x64.exe
         asset_content_type: application/vnd.microsoft.portable-executable
     - uses: actions/upload-release-asset@v1.0.1
@@ -78,7 +78,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/win-arm64/publish/YtDlpAudio.exe
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/win-arm64/publish/YtDlpJsonExtra.exe
         asset_name: YtDlpAudio-Win-ARM64.exe
         asset_content_type: application/vnd.microsoft.portable-executable
     - uses: actions/upload-release-asset@v1.0.1
@@ -86,7 +86,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/linux-x64/publish/YtDlpAudio
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/linux-x64/publish/YtDlpJsonExtra
         asset_name: YtDlpAudio-Linux-x64
         asset_content_type: application/x-elf
     - uses: actions/upload-release-asset@v1.0.1
@@ -94,7 +94,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/linux-arm64/publish/YtDlpAudio
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/linux-arm64/publish/YtDlpJsonExtra
         asset_name: YtDlpAudio-Linux-ARM64
         asset_content_type: application/x-elf
     - uses: actions/upload-release-asset@v1.0.1
@@ -102,7 +102,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/osx.11.0-arm64/publish/YtDlpAudio
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/osx.11.0-arm64/publish/YtDlpJsonExtra
         asset_name: YtDlpAudio-macOS-ARM64-UNTESTED
         asset_content_type: application/x-elf
     - uses: actions/upload-release-asset@v1.0.1
@@ -110,7 +110,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/osx.10.10-x64/publish/YtDlpAudio
+        asset_path: /home/runner/work/YtDlpJsonExtra/YtDlpJsonExtra/bin/Release/net6.0/osx.10.10-x64/publish/YtDlpJsonExtra
         asset_name: YtDlpAudio-macOS-x64-UNTESTED
         asset_content_type: application/x-elf
         
